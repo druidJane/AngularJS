@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class AngularJsApplication {
 
 	@RequestMapping(value="/search",produces = {MediaType.APPLICATION_JSON_VALUE})
-	public Person search(String personName){
+	public Person search(String personName){//test
 		return new Person(personName,22,"guangzhou");
 	}
 	public static void main(String[] args) {
